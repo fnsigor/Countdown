@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Countdown</title>
+        <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>  
+    <body>
+        <img src="images/top-image.svg" class="borderImage">
+
+        <main class="content">
+            
+            <!--inicio countdown-->
+            <div id="div-content">
+                <h2 id="launch">READY TO LAUNCH IN</h2>
+                <ul>
+                    <li class="counter">
+                        <span>Dias</span>
+                        <span id="valorDias">00</span>
+                    </li>
+                    <li class="doisPontos"><span>:</span></li>
+                    <li class="counter">
+                        <span>Horas</span>
+                        <span id="valorHoras">00</span>
+                    </li>
+                    <li class="doisPontos"><span>:</span></li>
+                    <li class="counter">
+                        <span>Minutos</span>
+                        <span id="valorMinutos">00</span>
+                    </li>
+                    <li class="doisPontos"><span>:</span></li>
+                    <li class="counter">
+                        <span>Segundos</span>
+                        <span id="valorSegundos">00</span>
+                    </li>               
+                </ul>
+                <span id="subtitle">Inscreva-se para saber mais sobre o lançamento</span> 
+                <button type="submit" id="inscrevase">Inscreva-se</button>
+            </div>
+            <!--fim countdown-->
+
+            <!--inicio formulario-->
+            <form action="" class="hiding" id="formulario">
+                <h3>Insira os dados solicitados</h3>
+                <fieldset>
+                    <label for="inputNome">Nome:</label>
+                    <input type="text" id="inputNome">
+                </fieldset>
+
+                <fieldset>
+                    <label for="inputEmail">Email:</label>
+                    <input type="email" id="inputEmail">
+                </fieldset>
+                <button id="buttonForm">Enviar</button>
+            </form>
+            <!--fim formulario-->
+
+            <img src="images/rocket.svg" alt="imagem de um foguete">
+
+        </main>
+        <img src="images/bottom-image.svg" class="borderImage">
+        <script src="main.js"></script>
+</body>
+</html>
