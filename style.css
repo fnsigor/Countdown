@@ -173,3 +173,15 @@ input:focus{
     position: absolute;
     visibility: hidden;
 }
+
+h6{
+    padding: 0 5px;
+    border-radius: 5px;
+    color: #6b697a;
+    background-color: var(--light-grey);
+    margin-top:20px;
+}
+
+h6 span{
+    color: #555;
+}
